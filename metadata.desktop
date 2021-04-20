@@ -1,0 +1,23 @@
+[Desktop Entry]
+Name=Grid WM
+Comment=Default Float Single Mode (Meta Key + Mouse Left), Manual Tiling Grid Layout (Meta Key + Mouse Right). Top Window Overlap Is Float Layer, Bottom Window Snap Is Tiling Layer. Grid Snap (Move & Resize), Edge Slot (Two Size), Swap Window, Split Layout.
+Icon=preferences-system-windows
+Type=Service
+Encoding=UTF-8
+
+X-Plasma-API=javascript
+X-Plasma-MainScript=code/main.js
+
+X-KDE-PluginInfo-Name=Grid_WM
+X-KDE-PluginInfo-Author=Critical Soft
+X-KDE-PluginInfo-Website=https://github.com/criticalsoft
+X-KDE-PluginInfo-Version=2.7.5
+X-KDE-PluginInfo-EnabledByDefault=true
+
+X-KDE-PluginInfo-Depends=
+X-KDE-PluginInfo-License=CC
+X-KDE-ServiceTypes=KWin/Script,KCModule
+X-KDE-Library=kwin/effects/configs/kcm_kwin4_genericscripted
+
+X-KDE-PluginKeyword=Grid_WM
+X-KDE-ParentComponents=Grid_WM
